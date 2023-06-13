@@ -1,0 +1,115 @@
+*, html {
+    font-family: 'Roboto Mono', monospace;
+}
+
+main {
+    display: flex;
+    margin-top: 20px;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+body {
+    background-color: teal;
+    margin: 0;
+    padding: 0%;
+    /* background-image: url('../imgs/allosaurus.jpg'); */
+}
+
+h1 {
+    text-align: center;
+    padding: 10px;
+    text-decoration: underline;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    background-color: midnightblue;
+}
+
+#start-button {
+    background-color: black;
+    color: white;
+    height: 5vw;
+    width: 20vw;
+    padding: 20x;
+}
+
+#start-button:hover {
+    background-color: green;
+}
+
+#react-area {
+    background-color: maroon;
+    width: 100vw;
+    height: 30vw;
+    flex-basis: 100%;
+    margin: 0%;
+    padding: 0%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.preview, .result, .results {
+    background-color: rgba(239, 239, 240, .7);
+    height: 25vw;
+    width: 50vw;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5vw;
+    border-radius: 10px;
+}
+.results {
+    gap: 0;
+}
+
+ul {
+    list-style: none;
+    padding: 0%;
+}
+
+img {
+    height: 25vw;
+    width: 20vw;
+}
+
+.previous-div {
+    display: flex;
+    flex-direction: column;
+}
+
+.previous-div > ul > li {
+    font-size: 70%;
+}
+
+.attempt-header {
+    font-size: 150%;
+}
+
+.begin-button, .next-button {
+    width: 15vw;
+    background-color: black;
+    color: white;
+}
+
+
+.begin-button:hover, .next-button:hover {
+    background-color: green;
+}
+
+#react-area:hover {
+    background-color: red;
+}
+
+
+
+#start-button.started:hover {
+    background-color: orangered;
+}
